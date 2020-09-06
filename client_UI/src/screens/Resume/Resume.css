@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+
+#page-center {
+    display: flex;
+    /* justify-content: center; */
+}
+
+#page {
+    /* flex-wrap: wrap; */
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 800px;
+    height: 1100px;
+    padding: 40px 40px;
+}
+
+#profile-name {
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    margin: 0px;
+}
+
+#personal-information {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+
+ul {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h6{
+    color: dimgray;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.item-and-dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-left {
+    justify-content: flex-start;
+}
+
+.date-right {
+    justify-content: flex-end;
+}
+
+.list-style-type-none {
+    list-style-type: none;
+}
+
+.job-responsibilities {
+    list-style-type: circle;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* .skills {
+    font-size: 24px;
+    font-weight: 500;
+} */
+
+.left-padding-none {
+    padding-left: 0;
+}
+
+.minimize-left-padding {
+    padding-left: 35px;
+}
+
+/* .full-space {
+    display: block;
+} */
+
+.inline {
+    display: inline-block;
+}
+
+.align-items-together .inline {
+    display: flex;
+    align-items: center;
+}
+
